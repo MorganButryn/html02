@@ -52,16 +52,25 @@ h2{
 	color: rgb(240,125,0);
 }
 
-	
-
 
 
 /* Blockquote Styles */
 aside blockquote {
 	font-size: 0.95em;
-	font-family: 'Comic Sans MS', cursive;
+	font-family: "Comic Sans MS", cursive;
+	color: rgba(255, 255, 255, 0.75);
+	background-color: rgb(222, 128, 60);
+	padding: 10px;
+	quotes: "@201c";
 }
-
+aside blockquote :: before{
+	size: 1.6em;
+	font-family: "Times New Roman", Times, serif;
+}
+aside blockquote :: after{
+	size: 1.6em;
+	font-family: "Times New Roman", Times, serif;
+}
 
 /* Navigation Styles */	
 
@@ -73,16 +82,6 @@ aside blockquote {
 
 
 /* List Styles */
-
-
-
-
-
-
-
-
-
-
 
 
 
