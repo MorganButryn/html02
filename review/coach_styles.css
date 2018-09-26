@@ -14,7 +14,7 @@
 @font-face {
 	font-family: Nobile;
 	src: url('nobile-webfont.woff') format('woff'),
-	url('nobile-webfont.tff') format('truetype')
+	url('nobile-webfont.ttf') format('truetype');
 }
 /* Main Structural Styles */
 html{
