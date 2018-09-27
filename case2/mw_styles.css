@@ -1,0 +1,72 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 2
+   
+   Bike the Mountains Tour Style Sheet
+   Author: Morgan and Jenna
+   Date:   9-27-18
+   
+   Filename: mw_styles.css
+
+*/
+@charset "utf-8";
+
+/* Structural Styles */
+html {
+	background-color: rgb(173, 189, 227);
+}
+body {
+	background-color: rgb(227, 210, 173);
+	font-family: "Century Golf", sans-serif;
+}
+footer {
+	background-color: rgb(208, 184, 109);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+address {
+	font-style: normal;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* Heading Styles */
+h1{
+	font-weight: normal;
+}
+h2 {
+	font-weight: normal;
+}
+/* Navigation Styles */
+nav > ul {
+	list-style-type: none;
+	line-height: 2em;
+	font-size: 0.9em;
+}
+nav :link, :visited {
+	text-decoration: none;
+	color: rgb(43, 59, 125);
+}
+nav a:active, a:hover  {
+	color: rgb(212, 35, 35);
+}
+
+/* Article Styles */
+#tour_summary h1{
+	font-size: 2.2em;
+	letter-spacing: 0.2em;
+}
+#tour_summary p {
+	font-size: 1.1em;
+}
+#tour_summary p :first-of-type, :first-line {
+	font-size: 1.2em;
+	font-variant: small-caps;
+/* Aside Styles */
+
+
+
+/* Blockquote Styles */
+
