@@ -2,7 +2,6 @@
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 2
-   
    Bike the Mountains Tour Style Sheet
    Author: Morgan and Jenna
    Date:   9-27-18
@@ -64,9 +63,31 @@ nav a:active, a:hover  {
 #tour_summary p :first-of-type, :first-line {
 	font-size: 1.2em;
 	font-variant: small-caps;
+}
 /* Aside Styles */
-
-
-
+#tour_itinerary h1 {
+	font-size: 1.2em;
+}
+#tour_itinerary h2 {
+	font-size: 0.9em;
+}
+#tour_itinerary p {
+	font-size: 0.8em;
+}
+#tour_itinerary h2:nth-of-type(odd), aside p:nth-of-type(odd) {
+	color: rgb(79, 91, 40);
+}
+#tour_itinerary h2:nth-of-type(even), aside p:nth-of-type(even) {
+	color: rgb(81, 95, 175);
+}
 /* Blockquote Styles */
-
+blockquote {
+	background-color: rgb(173, 189, 227);
+	color: rgba(255, 255, 255, 0.65);
+}
+blockquote p {
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
